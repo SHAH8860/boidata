@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/boidata/static/css/main.3f45745a.css",
-    "main.js": "/boidata/static/js/main.493b7f15.js",
+    "main.js": "/boidata/static/js/main.77eee291.js",
     "static/js/453.f6e18e82.chunk.js": "/boidata/static/js/453.f6e18e82.chunk.js",
     "index.html": "/boidata/index.html",
     "main.3f45745a.css.map": "/boidata/static/css/main.3f45745a.css.map",
-    "main.493b7f15.js.map": "/boidata/static/js/main.493b7f15.js.map",
+    "main.77eee291.js.map": "/boidata/static/js/main.77eee291.js.map",
     "453.f6e18e82.chunk.js.map": "/boidata/static/js/453.f6e18e82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f45745a.css",
-    "static/js/main.493b7f15.js"
+    "static/js/main.77eee291.js"
   ]
 }
