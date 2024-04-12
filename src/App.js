@@ -93,7 +93,7 @@ function App() {
         </div>
         <div className="col-4">
           <div class="cardimg">
-            <img src="/bio.jpg" class="rounded" alt="..." />
+            <img src="/bio.jpg" class="rounded" alt="Loading..." />
           </div>
         </div>
       </div>
