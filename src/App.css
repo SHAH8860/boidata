@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* White text color */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  height: 100%;
+  border: 3px solid rgb(245, 77, 77);
+  background-color:white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img{
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+.cardimg{
+  margin-top: 25%;
+}
+.personal {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.detail-label {
+  width: 270px; /* Adjust as needed */
+  display: inline-block; /* Adjust spacing between label and colon */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dot {
+  margin-left: 10px; /* Adjust spacing between colon and text */
+}
+.text-break {
+  display: inline-block;
+  width: calc(100% - 200px - 10px); /* Calculate the width of the text to allow space for the label and dot */
+  word-wrap: break-word; /* Allow the text to break at any point */
 }
